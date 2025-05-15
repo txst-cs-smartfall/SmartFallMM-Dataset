@@ -85,6 +85,8 @@ The data is organized in a structured directory format to facilitate easy naviga
 - **Skeleton:** The CSV files consist of 96 columns without headers. Further detail is provided below:
    - Each skeleton data contains 32 joints, where each joint is represented by three coordinates x, y, and z. Therefore, there will be 32×3=96 columns representing the positions of all joints (x, y, z for each joint).
    - The system captures data at 30 frames per second (FPS). The number of rows will depend on the duration of the activity recorded. For example, if the recording lasts for T seconds, the number of rows will be approximately 30xT.
+ 
+## Missing Files/Data:
 
 ## Inquiry/Feedback:
 
