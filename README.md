@@ -95,4 +95,4 @@ The data is organized in a structured directory format to facilitate easy naviga
 
 If you have any questions, feedback, or suggestions regarding this dataset, please feel free to contact the following individual(s):
 
-Dr. Anne Ngu | angu@txstate.edu
+Dr. Anne Ngu | angu(at)txstate(dot)edu
