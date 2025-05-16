@@ -78,8 +78,6 @@ The data is organized in a structured directory format to facilitate easy naviga
     - Acceleromter: 21 participants' data of phone/watch, and 19 participants' data of meta sensors.
     - Gyroscope: 21 participants' data of phone/watch, and meta sensors.
     - Skeleton: 19 participants' data.
-      
-**NOTE:** Some participants lack data for certain activities and trials due to various reasons, including data corruption, technical issues, or the inability or unwillingness of participants to engage in specific activities.
 
 ## Format of CSV Files:
 
@@ -90,6 +88,8 @@ The data is organized in a structured directory format to facilitate easy naviga
    - The system captures data at 30 frames per second (FPS). The number of rows will depend on the duration of the activity recorded. For example, if the recording lasts for T seconds, the number of rows will be approximately 30xT.
  
 ## Missing Files/Data:
+
+Some participants lack data for certain activities and trials due to various reasons, including data corruption, technical issues, or the inability or unwillingness of participants to engage in specific activities.
 
 ## Inquiry/Feedback:
 
