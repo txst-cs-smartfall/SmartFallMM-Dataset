@@ -74,12 +74,12 @@ The data is organized in a structured directory format to facilitate easy naviga
 - We currently have ready-to-use datasets for the following number of participants across different modalities:
   - **Young:**
     - Accelerometer: 19 pariticpants' data of phone/watch, 16 participants' data of meta sensor.
-    - Gyroscope: 16 participants data of phone and watch, and 10 participants' data of meta sensors.
-    - Skeleton: 15 participants' data.
+    - Gyroscope: 16 participants data of phone and watch, and 9 participants' data of meta sensors.
+    - Skeleton: 14 participants' data.
   - **Old:**
-    - Acceleromter: 21 participants' data of phone/watch, and 19 participants' data of meta sensors.
+    - Acceleromter: 21 participants' data of phone/watch, and for meta sensors, 20 participants of hip, and 24 of wrist.
     - Gyroscope: 21 participants' data of phone/watch, and meta sensors.
-    - Skeleton: 19 participants' data.
+    - Skeleton: 23 participants' data.
 
 ## Format of CSV Files:
 
