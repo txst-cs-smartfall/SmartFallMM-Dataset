@@ -91,7 +91,8 @@ The data is organized in a structured directory format to facilitate easy naviga
  
 ## Missing Files/Data:
 
-Some participants lack data for certain activities and trials due to various reasons, including data corruption, technical issues, or the inability or unwillingness of participants to engage in specific activities. For example, the samples listed below in [] have corresponding missing data/files:
+Some participants lack data for certain activities and trials due to various reasons, including data corruption, technical issues, or the inability or unwillingness of participants to engage in specific activities. For example, the samples listed below in ```[...]``` have corresponding missing data/files:
+
 Missing Trials:
 ```S28A01T[2, 3, 4, 5], S28A02T[5], S28A07T[1, 3, 4, 5], S28A08T[2, 4, 5], S28A09T[1, 4, 5], S29A01T[3, 4, 5], S29A03T[5], S29A05T[5], S29A06T[5], S29A08T[5], S29A09T[4, 5], S30A01T[2, 3, 4, 5], S30A02T[2, 3, 4, 5], S30A06T[4, 5], S30A07T[5], S30A08T[4, 5], S30A09T[4, 5], S31A01T[4, 5], S31A02T[4, 5], S31A05T[5], S31A06T[4, 5], S31A07T[2, 3, 4, 5], S31A08T[5], S31A09T[5], S32A01T[4, 5], S32A02T[5], S32A05T[4, 5], S32A06T[2, 3, 4, 5], S32A07T[4, 5], S32A08T[5], S32A09T[4, 5], S34A02T[3, 4, 5], S34A08T[3, 4, 5], S34A09T[5], S35A02T[4, 5], S35A03T[4, 5], S35A08T[2, 3, 4, 5], S36A01T[5], S37A02T[4, 5], S37A03T[3, 4, 5], S37A08T[5], S39A01T[4, 5], S39A07T[5], S40A03T[4, 5], S40A06T[5], S40A08T[1], S42A02T[5], S42A03T[4, 5], S43A02T[1, 4, 5], S43A03T[1, 3, 4, 5], S43A05T[1, 2, 3, 4], S43A06T[1, 2, 4], S45A08T[2, 3, 4, 5]```
 
