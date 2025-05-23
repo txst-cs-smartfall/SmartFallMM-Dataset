@@ -89,15 +89,17 @@ The data is organized in a structured directory format to facilitate easy naviga
    - Each skeleton data contains 32 joints, where each joint is represented by three coordinates x, y, and z. Therefore, there will be 32×3=96 columns representing the positions of all joints (x, y, z for each joint).
    - The system captures data at 30 frames per second (FPS). The number of rows will depend on the duration of the activity recorded. For example, if the recording lasts for T seconds, the number of rows will be approximately 30xT.
  
+## Multimodal-Ready Subjects:
+The following subjects are fully available across all modalities (i.e., Watch/Phone accelerometer + gyroscope, Meta sensors, and Skeleton data), and are ready to use for model training, evaluation, and analysis.
+- Young Group (12 subjects): [29, 30, 31, 34, 36, 37, 38, 39, 43, 44, 45, 46]
+- Old Group (16 subjects): [2, 3, 4, 5, 7, 9, 10, 11, 15, 16, 17, 18, 19, 22, 23, 47]
+
+We are actively processing and validating the remaining subjects to ensure consistent availability across all modalities. These will be added in future releases. Stay tuned!
+
+ 
 ## Missing Files/Data:
 
-Some participants lack data for certain activities and trials due to various reasons, including data corruption, technical issues, or the inability or unwillingness of participants to engage in specific activities. For example, the samples from ```Young: Watch Acceleremoter``` have corresponding missing data/files listed below in ```[...]```:
-
-Missing Trials:
-```S28A01T[2, 3, 4, 5], S28A02T[5], S28A07T[1, 3, 4, 5], S28A08T[2, 4, 5], S28A09T[1, 4, 5], S29A01T[3, 4, 5], S29A03T[5], S29A05T[5], S29A06T[5], S29A08T[5], S29A09T[4, 5], S30A01T[2, 3, 4, 5], S30A02T[2, 3, 4, 5], S30A06T[4, 5], S30A07T[5], S30A08T[4, 5], S30A09T[4, 5], S31A01T[4, 5], S31A02T[4, 5], S31A05T[5], S31A06T[4, 5], S31A07T[2, 3, 4, 5], S31A08T[5], S31A09T[5], S32A01T[4, 5], S32A02T[5], S32A05T[4, 5], S32A06T[2, 3, 4, 5], S32A07T[4, 5], S32A08T[5], S32A09T[4, 5], S34A02T[3, 4, 5], S34A08T[3, 4, 5], S34A09T[5], S35A02T[4, 5], S35A03T[4, 5], S35A08T[2, 3, 4, 5], S36A01T[5], S37A02T[4, 5], S37A03T[3, 4, 5], S37A08T[5], S39A01T[4, 5], S39A07T[5], S40A03T[4, 5], S40A06T[5], S40A08T[1], S42A02T[5], S42A03T[4, 5], S43A02T[1, 4, 5], S43A03T[1, 3, 4, 5], S43A05T[1, 2, 3, 4], S43A06T[1, 2, 4], S45A08T[2, 3, 4, 5]```
-
-Missing Activities:
-```S28A[04], S29A[02, 04], S30A[04], S31A[04], S32A[04], S33A[04], S34A[01, 03, 04, 05, 06, 07], S35A[04], S36A[04, 06, 07, 08, 09], S37A[01, 04, 07], S38A[04], S39A[04], S40A[04, 09], S41A[01, 02, 03, 04, 05, 06, 07, 08, 09], S42A[04], S43A[01, 04, 07, 09], S45A[01, 02, 03, 04, 05, 06, 07, 09]```
+Some participants lack data for certain activities and trials due to various reasons, including data corruption, technical issues, or the inability or unwillingness of participants to engage in specific activities.
 
 ## Inquiry/Feedback:
 
