@@ -37,7 +37,7 @@ We first tried to auto-label the inertia data using a Python script. The manual 
 </p>
 
 ## Labelling of skeleton/visual data:
-The recorded video file from the middle camera is used as a guide to label the skeleton data. The first column of the Excel file of the skeleton data is the video recording frame number. We played the recorded video and marked the initial and the ending frames of each trail of each activity. We then go to the Excel file of the skeleton data of that activity, crop the data specified within that range of frame numbers, and save those data points to a named CSV file. The latter part of the cropping and saving of data is automated by a Python script.  The saved data serves as one sample of skeleton data for input to the machine-learning model.
+The recorded video file from the middle camera is used as a guide to label the skeleton data. The first column of the Excel file of the skeleton data is the video recording frame number. We played the recorded video and marked the initial and the ending frames of each trail of each activity. We then go to the Excel file of the skeleton data of that activity, crop the data specified within that range of frame numbers, and save those data points to a named CSV file. The latter part of the cropping and saving of data is automated by a Python script.  The saved data serves as one sample of skeleton data for input to the machine-learning model. However, the recorded video cannot be released due to user privacy concerns.
 
 ## Naming Conventions
 
