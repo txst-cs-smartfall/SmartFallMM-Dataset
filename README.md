@@ -1,4 +1,4 @@
-# SmartFallMM: A Multimodal Dataset for Enhanced Human Activity Recognition
+# SmartFallMM: A Multimodal Dataset Collected with Commodity Devices
 
 <p align="center">
   <img src="images/sensor_postions.png" alt="Sensors and their placement" width="500"/>
