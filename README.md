@@ -85,7 +85,7 @@ The following subjects have complete accelerometer recordings from all inertial 
 - Young Group (14 subjects): [29, 30, 31, 32, 34, 35, 36, 37, 38, 39, 43, 44, 45, 46]
 - Old Group (21 subjects): [2, 3, 4, 5, 6, 7, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 21, 22, 23, 26, 47]
 
-**NOTE:** The knowledge distillation (KD) experiments did not utilize gyroscope data, therefore, these signals remain unlabeled at this stage. We will annotate and publish these samples in future work.
+**NOTE:** We did not use gyroscope data in the knowledge distillation (KD) experiments, so these signals remain partially unlabeled. Specifically, we have provided gyroscope recordings for the young group in the **young/gyroscope** folder and uploaded raw samples from the old group to the **old/gyroscope** folder to support reproducibility and enable future labeling efforts.
 
 ## Format of CSV Files:
 
