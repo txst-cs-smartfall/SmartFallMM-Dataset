@@ -86,7 +86,7 @@ We are actively processing and validating the remaining subjects to ensure consi
  
 ## Missing Files/Data:
 
-Some participants lack data for certain activities and trials due to various reasons, including data corruption, technical issues, or the inability or unwillingness of participants to engage in specific activities.
+Some participants lack data for certain activities and trials due to various reasons, including data corruption, technical issues, or the inability of participants to engage in specific activities.
 
 ## Inquiry/Feedback:
 
