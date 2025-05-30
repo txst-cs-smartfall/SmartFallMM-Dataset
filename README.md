@@ -62,6 +62,11 @@ The data is organized in a structured directory format to facilitate easy naviga
       - Watch
       - Meta_wrist
       - Meta_hip
+    - Gyroscope: Gyroscope data collected from multiple devices.
+      - Phone
+      - Watch
+      - Meta_wrist
+      - Meta_hip
     - Skeleton: Skeleton data extracted from recorded videos.
 
   - **Old Data:** Contains the labeled data collected from elder participants.
@@ -70,6 +75,9 @@ The data is organized in a structured directory format to facilitate easy naviga
       - Watch
       - Meta_wrist
       - Meta_hip
+    - Gyroscope: Gyroscope data collected from multiple devices.
+      - Phone_and_watch
+      - Meta_hip_and_wrist
     - Skeleton: Skeleton data extracted from recorded videos.
 
 ## Multimodal-Ready Subjects:
