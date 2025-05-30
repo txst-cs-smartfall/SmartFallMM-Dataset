@@ -52,7 +52,7 @@ Example: _S01A10T05_ represents participant 1 performing activity 10 (backfall) 
 
 The data is organized in a structured directory format to facilitate easy navigation and future scalability. The folder hierarchy is as follows:
 
-- SmartFallMM
+- SmartFallMM-Dataset
   - **Young Data:** Contains the labeled data collected from young participants.
     - Accelerometer: Accelerometer data collected from multiple devices.
       - Phone
