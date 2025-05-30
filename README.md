@@ -36,6 +36,9 @@ We first tried to auto-label the inertia data using a Python script. The manual 
   <strong>Figure 2: Example of labeling 5 trials of back fall</strong>
 </p>
 
+## Labelling of skeleton/visual data:
+The recorded video file from the middle camera is used as a guide to label the skeleton data. The first column of the Excel file of the skeleton data is the video recording frame number. We played the recorded video and marked the initial and the ending frames of each trail of each activity. We then go to the Excel file of the skeleton data of that activity, crop the data specified within that range of frame numbers, and save those data points to a named CSV file. The latter part of the cropping and saving of data is automated by a Python script.  The saved data serves as one sample of skeleton data for input to the machine-learning model.
+
 ## Naming Conventions
 
 Each trial of raw labeled activity data is stored in a CSV file named using the following format:
@@ -86,7 +89,7 @@ We are actively processing and validating the remaining subjects to ensure consi
  
 ## Missing Files/Data:
 
-Some participants lack data for certain activities and trials due to various reasons, including data corruption, technical issues, or the inability of participants to engage in specific activities.
+Some participants lack data for certain activities and trials due to various reasons, including data corruption, technical issues, or the inability of participants to engage in specific activities. For example, the subjects [03, 05, 07, 11, 14, 16, 25, 26] in the old group were unable to perform the TUG (Timed Up and Go) activity.
 
 ## Inquiry/Feedback:
 
