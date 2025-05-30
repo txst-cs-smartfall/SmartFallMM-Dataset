@@ -73,11 +73,11 @@ The data is organized in a structured directory format to facilitate easy naviga
     - Skeleton: Skeleton data extracted from recorded videos.
 
 ## Multimodal-Ready Subjects:
-The following subjects are fully available across all modalities (i.e., Watch/Phone accelerometer, Meta sensors, and Skeleton data), and are ready to use for model training, evaluation, and analysis.
-- Young Group (14 subjects): [29, 30, 31, 32, 34, 35, 36, 37, 38, 39, 43, 44, 45, 46] 
+The following subjects have complete accelerometer recordings from all inertial sensing modalities, including the smartphone, smartwatch, and Meta sensors, as well as fully annotated skeletal motion data, making them ready for downstream machine learning tasks such as model training, evaluation, and cross-modal analysis.
+- Young Group (14 subjects): [29, 30, 31, 32, 34, 35, 36, 37, 38, 39, 43, 44, 45, 46]
 - Old Group (21 subjects): [2, 3, 4, 5, 6, 7, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 21, 22, 23, 26, 47]
 
-We are actively processing and validating the remaining subjects to ensure consistent availability across all modalities. These will be added in future releases. Stay tuned!
+**NOTE:** The knowledge distillation (KD) experiments did not utilize gyroscope data, therefore, these signals remain unlabeled at this stage. We have provided the unlabeled gyroscope recordings for all 35 subjects in the **unlabeled_gyro_data** folder, and these samples will be annotated in future work.
 
 ## Format of CSV Files:
 
@@ -89,7 +89,7 @@ We are actively processing and validating the remaining subjects to ensure consi
  
 ## Missing Files/Data:
 
-Some participants lack data for certain activities and trials due to various reasons, including data corruption, technical issues, or the inability of participants to engage in specific activities. For example, the subjects [03, 05, 07, 11, 14, 16, 25, 26] in the old group were unable to perform the TUG (Timed Up and Go) activity.
+Some participants lack data for certain activities and trials due to various reasons, including data corruption, technical issues, or the inability of participants to engage in specific activities.
 
 ## Inquiry/Feedback:
 
