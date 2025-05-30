@@ -4,7 +4,7 @@
   <img src="images/sensor_postions.png" alt="Sensors and their placement" width="500"/>
 </p>
 
-The SmartFallMM dataset is a multimodal resource for Wearable Sensor-based Human Activity Recognition (WSHAR), providing synchronized data from 32 skeleton joint positions, accelerometers, and gyroscopes placed on wrists and hips. Collected using smartwatches, smartphones, meta sensors, and cameras, it includes daily activity data from both younger and older populations. This unique dataset supports the development of advanced machine learning models combining visual and non-visual data for enhanced activity recognition. 
+The SmartFallMM dataset is a multimodal resource for Wearable Sensor-based Human Activity Recognition (WSHAR), providing synchronized data from 32 skeleton joint positions and accelerometers placed on wrists and hips. Collected using smartwatches, smartphones, meta sensors, and cameras, it includes daily activity data from both younger and older populations. This unique dataset supports the development of advanced machine learning models combining visual and non-visual data for enhanced activity recognition. 
 
 <b>Paper is coming soon!</b>
 
@@ -59,11 +59,6 @@ The data is organized in a structured directory format to facilitate easy naviga
       - Watch
       - Meta_wrist
       - Meta_hip
-    - Gyroscope: Gyroscope data collected from multiple devices.
-      - Phone
-      - Watch
-      - Meta_wrist
-      - Meta_hip
     - Skeleton: Skeleton data extracted from recorded videos.
 
   - **Old Data:** Contains the labeled data collected from elder participants.
@@ -71,9 +66,7 @@ The data is organized in a structured directory format to facilitate easy naviga
       - Phone
       - Watch
       - Meta_wrist
-    - Gyroscope: Gyroscope data collected from multiple devices.
-      - Phone
-      - Watch
+      - Meta_hip
     - Skeleton: Skeleton data extracted from recorded videos.
 
 ## Dataset Summary
@@ -81,11 +74,9 @@ The data is organized in a structured directory format to facilitate easy naviga
 - We currently have ready-to-use datasets for the following number of participants across different modalities:
   - **Young:**
     - Accelerometer: 19 pariticpants' data of phone/watch, 16 participants' data of meta sensor.
-    - Gyroscope: 16 participants data of phone and watch, and 9 participants' data of meta sensors.
     - Skeleton: 14 participants' data.
   - **Old:**
     - Acceleromter: 21 participants' data of phone/watch, and for meta sensors, 20 participants of hip, and 24 of wrist.
-    - Gyroscope: 21 participants' data of phone/watch, and meta sensors.
     - Skeleton: 23 participants' data.
 
 ## Format of CSV Files:
@@ -97,9 +88,9 @@ The data is organized in a structured directory format to facilitate easy naviga
    - The system captures data at 30 frames per second (FPS). The number of rows will depend on the duration of the activity recorded. For example, if the recording lasts for T seconds, the number of rows will be approximately 30xT.
  
 ## Multimodal-Ready Subjects:
-The following subjects are fully available across all modalities (i.e., Watch/Phone accelerometer + gyroscope, Meta sensors, and Skeleton data), and are ready to use for model training, evaluation, and analysis.
+The following subjects are fully available across all modalities (i.e., Watch/Phone accelerometer, Meta sensors, and Skeleton data), and are ready to use for model training, evaluation, and analysis.
 - Young Group (12 subjects): [29, 30, 31, 34, 36, 37, 38, 39, 43, 44, 45, 46]
-- Old Group (16 subjects - excluding gyroscope of meta sensors): [2, 3, 4, 5, 7, 9, 10, 11, 15, 16, 17, 18, 19, 22, 23, 47]
+- Old Group (16 subjects): [2, 3, 4, 5, 7, 9, 10, 11, 15, 16, 17, 18, 19, 22, 23, 47]
 
 We are actively processing and validating the remaining subjects to ensure consistent availability across all modalities. These will be added in future releases. Stay tuned!
 
