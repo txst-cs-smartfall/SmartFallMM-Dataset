@@ -32,7 +32,7 @@ The following table provides a summary of the activities, their corresponding la
 ## Labelling of inertia/non-visual data:
 We first tried to auto-label the inertia data using a Python script. The manual visualization of human-labeled to auto-labeled data sets revealed significant inaccuracies. All inertial data collected from the four joint positions are thus labeled manually for quality. In the data labeling process, the accelerometer's x-axis, y-axis, and z-axis of an activity are visualized using line plots. By visualizing these plots manually, a specific trial of activities such as falls, waving, etc, can be identified by spikes and rest periods. These activities are marked with rectangular boxes aligned across the axes. Figure 2 shows an example of labeling 5 trials of back fall. Humans can more accurately identify the beginning and end of each trial. Once each trial is isolated in the box, the data within the box gets copied into a named Excel file to be used as one sample input to the machine learning model.
 <p align="center">
-  <img src="images/backfall.png" alt="inertial_data_labeling" height="500"/><br>
+  <img src="images/inertial_labeling.png" alt="inertial_data_labeling" height="500"/><br>
   <strong>Figure 2: Example of labeling 5 trials of back fall</strong>
 </p>
 
