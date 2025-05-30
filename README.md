@@ -69,15 +69,12 @@ The data is organized in a structured directory format to facilitate easy naviga
       - Meta_hip
     - Skeleton: Skeleton data extracted from recorded videos.
 
-## Dataset Summary
+## Multimodal-Ready Subjects:
+The following subjects are fully available across all modalities (i.e., Watch/Phone accelerometer, Meta sensors, and Skeleton data), and are ready to use for model training, evaluation, and analysis.
+- Young Group (14 subjects): [29, 30, 31, 32, 34, 35, 36, 37, 38, 39, 43, 44, 45, 46] 
+- Old Group (21 subjects): [2, 3, 4, 5, 6, 7, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 21, 22, 23, 26, 47]
 
-- We currently have ready-to-use datasets for the following number of participants across different modalities:
-  - **Young:**
-    - Accelerometer: 19 pariticpants' data of phone/watch, 16 participants' data of meta sensor.
-    - Skeleton: 14 participants' data.
-  - **Old:**
-    - Acceleromter: 21 participants' data of phone/watch, and for meta sensors, 20 participants of hip, and 24 of wrist.
-    - Skeleton: 23 participants' data.
+We are actively processing and validating the remaining subjects to ensure consistent availability across all modalities. These will be added in future releases. Stay tuned!
 
 ## Format of CSV Files:
 
@@ -86,14 +83,6 @@ The data is organized in a structured directory format to facilitate easy naviga
 - **Skeleton:** The CSV files consist of 96 columns without headers. Further detail is provided below:
    - Each skeleton data contains 32 joints, where each joint is represented by three coordinates x, y, and z. Therefore, there will be 32×3=96 columns representing the positions of all joints (x, y, z for each joint).
    - The system captures data at 30 frames per second (FPS). The number of rows will depend on the duration of the activity recorded. For example, if the recording lasts for T seconds, the number of rows will be approximately 30xT.
- 
-## Multimodal-Ready Subjects:
-The following subjects are fully available across all modalities (i.e., Watch/Phone accelerometer, Meta sensors, and Skeleton data), and are ready to use for model training, evaluation, and analysis.
-- Young Group (14 subjects): [29, 30, 31, 32, 34, 35, 36, 37, 38, 39, 43, 44, 45, 46] 
-- Old Group (21 subjects): [2, 3, 4, 5, 6, 7, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 21, 22, 23, 26, 47]
-
-We are actively processing and validating the remaining subjects to ensure consistent availability across all modalities. These will be added in future releases. Stay tuned!
-
  
 ## Missing Files/Data:
 
