@@ -89,8 +89,8 @@ The data is organized in a structured directory format to facilitate easy naviga
  
 ## Multimodal-Ready Subjects:
 The following subjects are fully available across all modalities (i.e., Watch/Phone accelerometer, Meta sensors, and Skeleton data), and are ready to use for model training, evaluation, and analysis.
-- Young Group (12 subjects): [29, 30, 31, 34, 36, 37, 38, 39, 43, 44, 45, 46]
-- Old Group (16 subjects): [2, 3, 4, 5, 7, 9, 10, 11, 15, 16, 17, 18, 19, 22, 23, 47]
+- Young Group (14 subjects): [29, 30, 31, 32, 34, 35, 36, 37, 38, 39, 43, 44, 45, 46] 
+- Old Group (21 subjects): [2, 3, 4, 5, 6, 7, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 21, 22, 23, 26, 47]
 
 We are actively processing and validating the remaining subjects to ensure consistent availability across all modalities. These will be added in future releases. Stay tuned!
 
