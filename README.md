@@ -81,11 +81,9 @@ The data is organized in a structured directory format to facilitate easy naviga
     - Skeleton: Skeleton data extracted from recorded videos.
 
 ## Multimodal-Ready Subjects:
-The following subjects have complete accelerometer recordings from all inertial sensing modalities, including the smartphone, smartwatch, and Meta sensors, as well as fully annotated skeletal motion data, making them ready for downstream machine learning tasks such as model training, evaluation, and cross-modal analysis.
+The following subjects have complete accelerometer, gyroscope recordings from all inertial sensing modalities, including the smartphone, smartwatch, and Meta sensors, as well as fully annotated skeletal motion data, making them ready for downstream machine learning tasks such as model training, evaluation, and cross-modal analysis.
 - Young Group (26 subjects): [29, 32, 35, 37, 38, 39, 43, 44, 45, 46, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63]
 - Old Group (21 subjects): [2, 3, 4, 5, 6, 7, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 21, 22, 23, 25, 26]
-
-**NOTE:** We did not use gyroscope data in the knowledge distillation (KD) experiments, so these signals remain partially unlabeled. Specifically, we have provided labeled gyroscope recordings for the young group in the **young/gyroscope** folder and uploaded raw/unlabeled samples from the old group to the **old/gyroscope** folder to support reproducibility and enable future labeling efforts.
 
 ## Format of CSV Files:
 
