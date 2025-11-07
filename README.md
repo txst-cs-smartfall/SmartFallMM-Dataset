@@ -101,6 +101,10 @@ Some participants lack data for certain activities and trials due to various rea
 
 ## Inquiry/Feedback:
 
-If you have any questions, feedback, or suggestions regarding this dataset, please feel free to contact the following individual(s):
+If you have questions, feedback, or suggestions regarding this dataset, please feel free to reach out or open an issue on our GitHub repository.
 
-Dr. Anne Ngu | angu(at)txstate(dot)edu
+**Contact:**  
+Dr. Anne Ngu — angu (at) txstate (dot) edu
+
+**Alternative:**  
+You may also open an issue directly on the [GitHub issues page](https://github.com/txst-cs-smartfall/SmartFallMM-Dataset/issues) for bug reports, clarifications, or contribution discussions.
