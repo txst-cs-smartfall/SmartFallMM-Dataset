@@ -93,9 +93,7 @@ The following subjects have complete accelerometer, gyroscope recordings from al
    - Each skeleton data contains 32 joints, where each joint is represented by three coordinates x, y, and z. Therefore, there will be 32×3=96 columns representing the positions of all joints (x, y, z for each joint).
    - The system captures data at 30 frames per second (FPS). The number of rows will depend on the duration of the activity recorded. For example, if the recording lasts for T seconds, the number of rows will be approximately 30xT.
  
-## Missing Files/Data:
-
-Some participants lack data for certain activities and trials due to various reasons, including data corruption, technical issues, or the inability of participants to engage in specific activities.
+**Missing Files/Data:** Some participants lack data for certain activities and trials due to various reasons, including data corruption, technical issues, or the inability of participants to engage in specific activities.
 
 ## Inquiry/Feedback:
 
