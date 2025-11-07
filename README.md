@@ -85,6 +85,8 @@ The following subjects have complete accelerometer, gyroscope recordings from al
 - Young Group (26 subjects): [29, 32, 35, 37, 38, 39, 43, 44, 45, 46, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63]
 - Old Group (21 subjects): [2, 3, 4, 5, 6, 7, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 21, 22, 23, 25, 26]
 
+**NOTE - Missing Files/Data:** Some participants lack data for certain activities and trials due to various reasons, including data corruption, technical issues, or the inability of participants to engage in specific activities.
+
 ## Format of CSV Files:
 
 - **Meta Sensors:** The CSV files consist of 6 columns, without headers, representing the following data from left to right: epoch (ms), time, elapsed time (s), and x, y, and z-axis values. The data was collected at 50Hz for both old and young participants.
@@ -92,8 +94,6 @@ The following subjects have complete accelerometer, gyroscope recordings from al
 - **Skeleton:** The CSV files consist of 96 columns without headers. Further detail is provided below:
    - Each skeleton data contains 32 joints, where each joint is represented by three coordinates x, y, and z. Therefore, there will be 32×3=96 columns representing the positions of all joints (x, y, z for each joint).
    - The system captures data at 30 frames per second (FPS). The number of rows will depend on the duration of the activity recorded. For example, if the recording lasts for T seconds, the number of rows will be approximately 30xT.
- 
-**Missing Files/Data:** Some participants lack data for certain activities and trials due to various reasons, including data corruption, technical issues, or the inability of participants to engage in specific activities.
 
 ## Inquiry/Feedback:
 
