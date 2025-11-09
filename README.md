@@ -81,7 +81,7 @@ The data is organized in a structured directory format to facilitate easy naviga
     - Skeleton: Skeleton data extracted from recorded videos.
 
 ## Multimodal-Ready Subjects:
-The following subjects have complete accelerometer, gyroscope recordings from all inertial sensing modalities, including the smartphone, smartwatch, and Meta sensors, as well as fully annotated skeletal motion data, making them ready for downstream machine learning tasks such as model training, evaluation, and cross-modal analysis.
+The following subjects have complete accelerometer, gyroscope recordings from all inertial sensing modalities, including the smartphone, smartwatch, and meta sensors, as well as fully annotated skeletal motion data, making them ready for downstream machine learning tasks such as model training, evaluation, and cross-modal analysis.
 - Young Group (30 subjects): [29, 30, 31, 32, 34, 35, 36, 37, 38, 39, 43, 44, 45, 46, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63]
 - Old Group (21 subjects): [2, 3, 4, 5, 6, 7, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 21, 22, 23, 25, 26]
 
