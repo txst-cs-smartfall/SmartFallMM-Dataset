@@ -97,7 +97,7 @@ The following subjects have complete accelerometer, gyroscope recordings from al
 
 ## Inquiry/Feedback:
 
-If you have questions, feedback, or suggestions regarding this dataset, please feel free to reach out [Dr. Anne Ngu — angu (at) txstate (dot) edu] or open an issue on [GitHub issues page](https://github.com/txst-cs-smartfall/SmartFallMM-Dataset/issues).
+If you have questions, feedback, or suggestions regarding this dataset, please feel free to reach out [Dr. Anne Ngu -> angu (at) txstate (dot) edu] or open an issue on [GitHub issues page](https://github.com/txst-cs-smartfall/SmartFallMM-Dataset/issues).
 
 ## Copyright and Acknowledgment
 © SmartFall Group, Texas State University. All rights reserved. 
