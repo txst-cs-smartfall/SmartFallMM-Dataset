@@ -104,3 +104,8 @@ Dr. Anne Ngu — angu (at) txstate (dot) edu
 
 **Alternative:**  
 You may also open an issue directly on the [GitHub issues page](https://github.com/txst-cs-smartfall/SmartFallMM-Dataset/issues) for bug reports, clarifications, or contribution discussions.
+
+## Copyright and Acknowledgment
+© SmartFall Group, Texas State University. All rights reserved. 
+
+Please include proper acknowledgment of the SmartFall Group at Texas State University as the source when using this dataset in any academic or experimental work.
