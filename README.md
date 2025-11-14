@@ -85,7 +85,7 @@ The following subjects have complete accelerometer, gyroscope recordings from al
 - Young Group (30 subjects): [29, 30, 31, 32, 34, 35, 36, 37, 38, 39, 43, 44, 45, 46, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63]
 - Old Group (21 subjects): [2, 3, 4, 5, 6, 7, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 21, 22, 23, 25, 26]
 
-**NOTE - Missing Files/Data:** Some participants lack data for certain activities and trials due to various reasons, including data corruption, technical issues, or the inability of participants to engage in specific activities. For example, S51 from young group has only fall activities data in Watch Accelerometer.
+**NOTE - Missing Files/Data:** Some participants lack data for certain activities and trials due to various reasons, including data corruption, technical issues, or the inability of participants to engage in specific activities. For example, S51 from young group has only falls data in Watch accelerometer, S29 and S38 has only ADLs in Watch gyroscope, while S39 and S59 have only falls in Watch gyroscope.
 
 ## Format of CSV Files:
 
