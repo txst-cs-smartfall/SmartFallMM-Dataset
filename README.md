@@ -6,7 +6,9 @@
 
 The SmartFallMM dataset is a multimodal resource for Wearable Sensor-based Human Activity Recognition (WSHAR), providing synchronized data from 32 skeleton joint positions and accelerometers placed on wrists and hips. Collected using smartwatches, smartphones, meta sensors, and cameras, it includes daily activity data from both younger and older populations. This unique dataset supports the development of advanced machine learning models combining visual and non-visual data for enhanced activity recognition. 
 
-<b>Paper is coming soon!</b>
+## Read the Full Paper
+
+For more details, please refer to our full paper: [SmartFallMM: A multimodal dataset for fall detection using commodity devices](https://ieeexplore.ieee.org/abstract/document/11651591)
 
 ## Activities and Labels
 
